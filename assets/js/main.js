@@ -15,7 +15,7 @@ $("#fecha").datepicker( {
 
 $('#fecha').datepicker('setDate',mindate);
 
-var mapCenter = new google.maps.LatLng(-34.600927, -58.445649);
+var mapCenter = new google.maps.LatLng(-34.620927, -58.445649);
 
 var mapOptions = {
   center: mapCenter,
