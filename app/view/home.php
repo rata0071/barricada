@@ -39,7 +39,7 @@
                 <div class="input-prepend"><span class="add-on"><i class="icon-time"></i> Hora </span>
 			<select name="hora" class="input-small">
 				<?php for ( $i=0; $i < 24; $i++ ) : ?>
-				<option value="<?= $i ?>" <?= ($i == date('h') ) ? 'selected="selected"' : '' ?> ><?= $i ?></option>
+				<option value="<?= $i ?>" <?= ($i == date('H') ) ? 'selected="selected"' : '' ?> ><?= $i ?></option>
 				<?php endfor ?>
 			</select>
 		</div>
