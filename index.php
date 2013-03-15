@@ -35,7 +35,7 @@ define ( 'SITE', 'Barricada' );
 
 ORM::configure('mysql:host=localhost;dbname=barricada');
 ORM::configure('username', 'root');
-ORM::configure('password', 'sqlPASS1234');
+ORM::configure('password', '');
 
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 /****  AND DOWN THE RABBIT HOLE  ****/
